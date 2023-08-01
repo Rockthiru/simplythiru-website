@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="white">
+    <meta name="description" content="Subcribe to the white">
+
+    <title> my first page</title>
+    <link rel="icon" href="htmllogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h1>hellow world</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="#ch4">chapter 4</a></li>
+                <li><a href="#ch5">chapter 5</a></li>
+                <li><a href="#Contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article id="html">
+            <p><a href="aboutme.html" target="_blank">About me</a></p>
+
+            <img src="img/asta.jpg" alt="my picture" title="not yet" width="250" height="300">
+            <figure>
+                <figcaption>Example of a HTML Code:</figcaption>
+                <code>&lt;h1&gt;IM GONNA BE THE KING OF THE PIRATE&lt;h1&gt;</code>
+            </figure>
+            <br>
+            <figure>
+                <img src="img/luffy.jpg" alt="all picture" width="350" height="380" loading="lazy">
+            </figure>
+
+            <p>NOT YET AND NEVER GIVE UP</p>
+            <hr>
+            <h2>im gonna be a great father of programmar </h2>
+            <p>all<em> credit goes<strong>to</strong>balachandran</em> bro thanks for teach me how to learn or become html programmar and also i love my asaa</p>
+            <hr>
+            <section id="ch4">
+                <h3> IM IN CHAPTER 4</h3>
+                hey im better than previous year
+                <dl>
+                    <dt>...share market..</dt>
+                    <dd><a href="https://www.youtube.com/channel/UCHWsdkQRUauXuXBuI3oG6Lg"> You Tube </a></dd>
+                    <dt>...learn ai...</dt>
+                    <dd>The artificial intelligence is world</dd>
+                    <dt>...learn blockchain...</dt>
+                    <dd>The some program</dd>
+                </dl>
+                <h3>Subscribed</h3>
+                <hr>
+                <p>hey im better than previous year </p>
+
+            </section>
+
+            <p>I learn from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr> resources
+
+            </p>
+
+            &lt; &lt; &lt; &lt; &copy; Thiru &gt; &gt; &gt; &gt;
+            <hr>
+
+            <section id="ch5">
+                <h4> IM IN CHAPTER 5 </h4>
+                hey im better than previous year
+                <dl>
+                    <dt>..One Piece</dt>
+                    <dd><a href="https://www.youtube.com/channel/UCHWsdkQRUauXuXBuI3oG6Lg"> You Tube </a></dd>
+                    <dt>..Black clover</dt>
+                    <dd> The artificial intelligence is world</dd>
+                    <dt>..learn blockchain</dt>
+                    <dd>The some program</dd>
+                </dl>
+
+            </section>
+        </article>
+        <hr>
+        <article id="Contact">
+            <h2>Contact me:</h2>
+            <p> I would like to hear from you.</p>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>About you</legend>
+                    <p>
+                        <label for="firstName">FirstName:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="xxxx-xxxxxx-xxxx" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="lastName">LastName:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="xxxx-xxxxxx-xxxx" autocomplete="on" required>
+                    </p>
+
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="ur pw" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone no:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="910000000000" required pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                    </p>
+
+                    <p>
+                        <label for="decade">Fav decade:</label>
+                        <input type="number" name="decade" id="decade" min="1940" max="2024" value="1970" step="05">
+                    </p>
+
+                    <p>
+                        <label for="content">skills:</label>
+                        <select name="content" id="content">        
+                        <optgroup label="Computer science based">
+                        <option value="Frontend developer">Frontend developer</option>
+                        <option value="Backend developer">Backend developer</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="blockchain">blockchain</option>
+                        </optgroup>
+                        <optgroup label="others">
+                        <option value="share market">Share market</option>
+                        <option value="Trading">Trading</option>
+                        <option value="civil service">civil service</option>
+                        <option value="graphic designer">graphic designer</option>
+                        </optgroup>
+                        
+                    </select>
+                    </p>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Send me a note</legend>
+                    <label for="message">Your message</label>
+                    <p>
+                        <textarea name="message" id="message" cols="40" rows="20" placeholder="Type your message"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+                <br><br><br>
+            </form>
+
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+
+</body>
+
+</html>
